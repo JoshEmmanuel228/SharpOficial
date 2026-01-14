@@ -59,6 +59,7 @@ const Checkout = () => {
         };
 
         try {
+            console.log(`[Checkout] Attempting to create order at: ${API_URL}/orders`);
             const response = await fetch(`${API_URL}/orders`, {
                 method: 'POST',
                 headers: {
@@ -72,11 +73,13 @@ const Checkout = () => {
                 clearCart();
                 navigate('/');
             } else {
-                alert('Hubo un error al procesar tu orden. Por favor intenta de nuevo.');
+                const errorData = await response.json();
+                console.error('Order creation failed:', errorData);
+                alert(`Hubo un error al procesar tu orden: ${errorData.message || 'Error desconocido'}`);
             }
         } catch (error) {
-            console.error('Error creating order:', error);
-            alert('Error de conexión. Verifica que el servidor esté corriendo.');
+            console.error(`Error creating order at ${API_URL}/orders:`, error);
+            alert(`Error de conexión al intentar contactar con ${API_URL}/orders. Verifica tu conexión.`);
         } finally {
             setLoading(false);
         }

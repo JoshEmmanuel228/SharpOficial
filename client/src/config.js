@@ -12,6 +12,9 @@ export const API_URL = process.env.REACT_APP_API_URL
     ? `${sanitizeUrl(process.env.REACT_APP_API_URL)}/api`
     : (isProduction ? '/api' : `http://${window.location.hostname}:5000/api`);
 
+console.log('Environment:', process.env.NODE_ENV);
+console.log('API URL configured as:', API_URL);
+
 export const BASE_URL = process.env.REACT_APP_API_URL
     ? sanitizeUrl(process.env.REACT_APP_API_URL)
     : (isProduction ? '' : `http://${window.location.hostname}:5000`);
