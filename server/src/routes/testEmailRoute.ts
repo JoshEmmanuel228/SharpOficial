@@ -28,6 +28,11 @@ router.get('/', async (req, res) => {
         host: 'smtp.gmail.com',
         port: 587,
         secure: false,
+        requireTLS: true,
+        connectionTimeout: 10000,
+        tls: {
+            rejectUnauthorized: false
+        },
         auth: {
             user: process.env.EMAIL_USER,
             pass: process.env.EMAIL_PASS

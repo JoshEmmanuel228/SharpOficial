@@ -9,8 +9,17 @@ const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
     secure: false, // true for 465, false for other ports
+    requireTLS: true,
+    logger: true,
+    debug: true,
+    connectionTimeout: 10000, // 10 seconds
+    greetingTimeout: 10000,
+    socketTimeout: 10000,
+    tls: {
+        rejectUnauthorized: false
+    },
     auth: {
-        user: process.env.EMAIL_USER,
+        user: process.env.EMAIL_USER, // Ensure these are set in .env
         pass: process.env.EMAIL_PASS
     }
 });
