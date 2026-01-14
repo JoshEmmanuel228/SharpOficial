@@ -37,11 +37,7 @@ export const createAppointment = asyncHandler(async (req: Request, res: Response
         sendAppointmentEmail(appointment).catch(err => console.error('Error sending admin email:', err));
 
         // Client confirmation
-        // Import needed if not already imported at top, but we already have sendAppointmentEmail imported.
-        // We need sendAppointmentClientEmail too.
-        import('../utils/emailService').then(({ sendAppointmentClientEmail }) => {
-            sendAppointmentClientEmail(appointment).catch(err => console.error('Error sending client email:', err));
-        });
+        sendAppointmentClientEmail(appointment).catch(err => console.error('Error sending client email:', err));
 
         res.status(201).json({
             _id: appointment._id,
