@@ -14,6 +14,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Checkout from './pages/Checkout';
 import Profile from './pages/Profile'; // Added import for Profile
+import ContactSidebar from './components/ContactSidebar';
 // import PrivateRoute from './components/PrivateRoute'; // Not used in the provided snippet, keeping commented as per instruction
 // import { useCart } from './context/CartContext'; // Not used in the final structure, keeping commented as per instruction
 
@@ -24,6 +25,7 @@ function App() {
         <Router>
           <div className="min-h-screen bg-primary text-white font-sans">
             <Navbar />
+            <ContactSidebar />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/shop" element={<Marketplace />} />
