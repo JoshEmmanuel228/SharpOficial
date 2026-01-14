@@ -29,9 +29,9 @@ const io = new Server(httpServer, {
 app.use(cors()); // Default cors allows *
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send('API is running...');
-});
+// app.get('/', (req, res) => {
+//   res.send('API is running...');
+// });
 
 // Routes
 app.use('/api/cultures', cultureRoutes);
