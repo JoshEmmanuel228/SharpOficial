@@ -35,18 +35,35 @@ router.get('/', async (req, res) => {
     });
 
     try {
+        // 1. Verify connection
         await transporter.verify();
-        console.log('[Test Email] Connection successful');
+        console.log('[Test Email] Connection verified');
+
+        // 2. Try sending an actual email
+        const targetEmail = (req.query.to as string) || process.env.EMAIL_USER;
+
+        const info = await transporter.sendMail({
+            from: `"Test Debugger" <${process.env.EMAIL_USER}>`,
+            to: targetEmail,
+            subject: "Test Email from Sharp Official Debugger",
+            text: "Si estás leyendo esto, la configuración de correo FUNCIONA correctamente.",
+            html: "<h1>¡Éxito!</h1><p>El sistema de correo está funcionando.</p>"
+        });
+
+        console.log('[Test Email] Message sent:', info.messageId);
+
         res.json({
             status: 'success',
-            message: 'SMTP Connection established successfully',
+            message: `Email Sent! Connection verified AND email sent to ${targetEmail}`,
+            messageId: info.messageId,
             user: user
         });
     } catch (error: any) {
-        console.error('[Test Email] Connection failed:', error);
+        console.error('[Test Email] Failed:', error);
         res.status(500).json({
             status: 'error',
-            message: 'SMTP Connection failed',
+            message: 'Email failed to send',
+            step: error.command ? 'Sending' : 'Authentication',
             error: error.message
         });
     }
