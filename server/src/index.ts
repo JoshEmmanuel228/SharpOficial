@@ -33,9 +33,8 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'ok', server: 'Sharp Official', timestamp: new Date() });
 });
 
-app.get('/', (req, res) => {
-  res.send('API is running...');
-});
+// Root route removed to allow static file serving
+
 
 // Routes
 app.use('/api/cultures', cultureRoutes);
