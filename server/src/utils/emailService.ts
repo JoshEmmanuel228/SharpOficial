@@ -11,10 +11,11 @@ const transporter = nodemailer.createTransport({
     secure: false, // true for 465, false for other ports
     requireTLS: true,
     logger: true,
-    debug: true,
+    debug: true, // show debug output
     connectionTimeout: 10000, // 10 seconds
     greetingTimeout: 10000,
     socketTimeout: 10000,
+    family: 4, // Force IPv4
     tls: {
         rejectUnauthorized: false
     },

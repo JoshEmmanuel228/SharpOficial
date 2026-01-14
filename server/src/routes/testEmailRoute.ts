@@ -30,6 +30,7 @@ router.get('/', async (req, res) => {
         secure: false,
         requireTLS: true,
         connectionTimeout: 10000,
+        family: 4, // Force IPv4
         tls: {
             rejectUnauthorized: false
         },
