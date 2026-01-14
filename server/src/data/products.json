@@ -1,0 +1,312 @@
+[
+  {
+    "id": 7,
+    "name": "Cartera Larga Dr. Martens",
+    "price": 650,
+    "style": "punk",
+    "size": "One Size",
+    "color": "Black Patent Lamper",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/Drair.jpeg"
+    ],
+    "modelUrl": "/models/Negrocharol.glb",
+    "offers": [],
+    "description": "Eleva tu estilo con esta exclusiva cartera Dr. Martens, diseñada para quienes buscan durabilidad sin sacrificar la estética rebelde. Esta pieza captura el ADN clásico de la marca con su icónico contraste de colores y materiales de alta resistencia.\n\nCaracterísticas Principales:\n\nAcabado Premium: Confeccionada en material tipo charol (acabado glossy) de alto brillo, resistente al agua y fácil de limpiar.\n\nADN Dr. Martens: Cuenta con el legendario pespunte amarillo (Yellow Stitch) perimetral, sello inconfundible de autenticidad y rebeldía.\n\nLogotipo Embosado: Grabado \"Dr. Martens AirWair\" en la parte frontal y en el lazo del cinturón, añadiendo textura y distinción.\n\nSeguridad y Estilo: Incluye una cadena metálica cromada de eslabones robustos, perfecta para asegurar la cartera a tu pantalón (estilo biker o trucker) y evitar pérdidas o robos.\n\nFuncionalidad: Cierre de broche a presión (snap) resistente y correa de cuero adicional con gancho para llaves o para fijar al cinturón.\n\nIdeal para: Completar un outfit grunge, punk o streetwear, o como regalo de lujo para fans de la marca.\n\nEstado: Nueva",
+    "slug": "cartera-larga-dr-martens",
+    "inStock": false,
+    "stockStatus": "sold-out"
+  },
+  {
+    "id": 8,
+    "name": "Cartera Larga Dr. Martens - Cherry Red",
+    "price": 650,
+    "style": "Skinhead / Punk",
+    "size": "One Size",
+    "color": "Cherry Red",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/cherry.jpg"
+    ],
+    "modelUrl": "/models/CarteraVino.glb",
+    "secondaryModelUrl": "/models/Carteravino1.glb",
+    "offers": [],
+    "description": "Lleva contigo un ícono de la contracultura. Esta cartera Dr. Martens en el legendario color Cherry Red está diseñada para durar toda la vida. A diferencia de otros materiales, esta piel desarrolla un carácter único con el uso, volviéndose más atractiva con el paso del tiempo.\n\nCaracterísticas Premium:\n\nColor Icónico: El clásico tono \"Cherry Red\" (rojizo oscuro/vino), el mismo utilizado en las botas originales 1460 de la marca.\n\nConstrucción Robusta: Fabricada en cuero liso de alta resistencia, unida con la inconfundible costura amarilla que define a la marca.\n\nSeguridad Biker: Incluye una cadena metálica desmontable con un fob (presilla) de cuero para sujetarla al cinturón, ideal para motociclistas o para asegurar tus pertenencias en conciertos y festivales.\n\nAlmacenamiento: Amplio espacio interior para billetes, tarjetas y documentos, asegurado con botones de presión (snaps) cromados.\n\nPresentación: Se entrega con su caja original Dr. Martens, lo que la hace perfecta para un regalo de lujo o para coleccionistas.\n\nEstilo: Perfecta para looks Skinhead (tradicional), Punk, Rockabilly o simplemente para amantes del cuero de calidad.\n\nCondición: Nueva en caja / Excelente estado.",
+    "slug": "cartera-larga-dr-martens-cherry-red"
+  },
+  {
+    "id": 9,
+    "name": "Cartera Larga Dr. Martens Negra",
+    "price": 650,
+    "style": "Skinhead / Punk",
+    "size": "One Size",
+    "color": "Black Smooth",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/Cnegra.jpg"
+    ],
+    "modelUrl": "/models/CarteraNegra1.glb",
+    "secondaryModelUrl": "/models/CarteraNegra2.glb",
+    "offers": [],
+    "description": "La definición de estilo atemporal y rebeldía. Esta cartera larga Dr. Martens en color negro mate está confeccionada en la robusta piel Smooth, diseñada para resistir el uso diario y lucir mejor con los años.\n\nCaracterísticas:\n\nColor: Negro Mate (Black Smooth), el acabado más versátil y clásico de la marca.\n\nMaterial: Piel genuina de alta resistencia, fácil de limpiar y mantener.\n\nADN Dr. Martens: Pespunte amarillo de alto contraste y logotipo grabado en bajo relieve.\n\nFuncionalidad: Diseño de cartera larga con cadena de seguridad desmontable y correa para cinturón, perfecta para mantener tus pertenencias seguras en cualquier lugar.\n\nPresentación: Se entrega con su caja original kraft con el logo de la marca.\n\nEstado: Nueva en caja.",
+    "slug": "cartera-larga-dr-martens-negra"
+  },
+  {
+    "id": 10,
+    "name": "Cartera Dr. Martens Mono Black",
+    "price": 650,
+    "style": "Gothic / Minimalist",
+    "size": "One Size",
+    "color": "Mono Black",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/ng.jpg"
+    ],
+    "modelUrl": "/models/Carteracosturanegra.glb",
+    "offers": [],
+    "description": "La máxima expresión del minimalismo rebelde. Esta edición \"Mono\" de la clásica cartera Dr. Martens elimina el contraste de color para ofrecer un acabado totalmente negro, ideal para quienes buscan un accesorio discreto, elegante y con actitud.\n\nCaracterísticas:\n\nEstilo Monocromático: A diferencia de la clásica, esta versión cuenta con costuras negras y bordes oscuros, creando una silueta limpia y uniforme.\n\nMaterial Premium: Confeccionada en piel vacuna genuina de alta durabilidad (acabado Smooth).\n\nHerrajes de Calidad: Botones de presión y cadena de seguridad en acabado plateado/cromado que resaltan sobre el fondo negro.\n\nSeguridad: Incluye cadena robusta y presilla de cuero para sujetar al cinturón.\n\nEstado: Nueva con su caja original.\n\nIdeal para: Outfits All Black, estilo Gótico, Minimalista o para uso diario en entornos donde la costura amarilla resalta demasiado.",
+    "slug": "cartera-dr-martens-mono-black"
+  },
+  {
+    "id": 11,
+    "name": "Cartera Larga Dr. Martens Green Smooth",
+    "price": 650,
+    "style": "Military / Indie",
+    "size": "One Size",
+    "color": "Green Smooth",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/green.jpg"
+    ],
+    "modelUrl": "/models/Carteraverde.glb",
+    "secondaryModelUrl": "/models/CarterDrmartens_View2.glb",
+    "offers": [],
+    "description": "Destácate de la multitud con esta cartera Dr. Martens en el distintivo color Green Smooth. Un tono verde profundo y elegante que evoca la herencia trabajadora y el estilo militar de la marca, perfecto para quienes buscan algo más allá del clásico negro.\n\nCaracterísticas Únicas:\n\nColor Exclusivo: Acabado en \"Green Smooth\" (Verde Botella/Bosque), un color icónico que combina a la perfección con la costura amarilla perimetral.\n\nDurabilidad Legendaria: Hecha con la piel Smooth original de Dr. Martens, famosa por ser rígida al principio y volverse increíblemente cómoda y resistente con el uso.\n\nDetalles de Marca: Logotipo \"Dr. Martens AirWair\" grabado en relieve al frente y en la presilla del cinturón.\n\nEstilo Biker/Utility: Diseñada con una presilla de cuero resistente para sujetar al cinturón (incluye la conexión para cadena), brindando seguridad y un look streetwear auténtico.\n\nPresentación: Incluye su caja original, lista para regalo.\n\nIdeal para: Completar looks con paletas de colores tierra, estilo militar, indie o para coleccionistas de los colores raros de Dr. Martens.\n\nEstado: Nueva en caja.",
+    "slug": "cartera-larga-dr-martens-green-smooth"
+  },
+  {
+    "id": 12,
+    "name": "Set Dr. Martens 'All White'",
+    "price": 650,
+    "style": "Mod / Minimalist",
+    "size": "One Size",
+    "color": "White Smooth",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/carterablanca.jpg"
+    ],
+    "offers": [],
+    "description": "Rompe con la oscuridad habitual y atrévete con el blanco total. Este set exclusivo de Dr. Martens en color White Smooth es una rareza difícil de encontrar, diseñada para quienes buscan un impacto visual inmediato y una estética limpia.\n\nCaracterísticas del Set:\n\nEstética \"Mono White\": A diferencia de los modelos tradicionales, aquí todo es blanco. La piel y las costuras son blancas, creando un look minimalista, pulcro y moderno.\n\nPiel Premium: Confeccionado en cuero vacuno genuino con acabado liso (Smooth) de alta resistencia.\n\nHardware Cromado: Tanto la hebilla del cinturón como la cadena de la cartera y los broches tienen un acabado plateado brillante que contrasta lujosamente con el blanco.\n\nDetalles Artesanales: El cinturón cuenta con un detalle de costura entrelazada en los bordes, un toque de distinción extra.\n\nEstado: Nuevo con etiquetas (como se ve en la foto), listo para estrenar.\n\nIdeal para: Estilos Mod, looks de verano, festivales, contraste con ropa totalmente negra, o para coleccionistas que mantienen sus piezas impecables.",
+    "slug": "set-dr-martens-all-white-",
+    "modelUrl": "/models/CARTERABLANCA.glb"
+  },
+  {
+    "id": 13,
+    "name": "Cartera Larga Dr. Martens Dark Brown",
+    "price": 650,
+    "style": "Vintage / Workwear",
+    "size": "One Size",
+    "color": "Dark Brown Crazy Horse",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/CarteraCrazyHorse.jpg"
+    ],
+    "modelUrl": "/models/Crazyhorse.glb",
+    "secondaryModelUrl": "/models/Crazyhorse1.glb",
+    "offers": [],
+    "description": "Para quienes prefieren el estilo rústico y auténtico sobre el brillo. Esta cartera Dr. Martens en color Café (Dark Brown) está confeccionada en una piel robusta con acabado mate/engrasado, diseñada para desarrollar una pátina increíble y un aspecto vintage único con el uso diario.\n\nCaracterísticas:\n\nEstética Vintage: El tono café oscuro combinado con la costura amarilla crea el contraste clásico de la ropa de trabajo (Workwear) y el estilo aventurero.\n\nPiel con Carácter: A diferencia de los modelos lisos, esta piel suele marcarse sutilmente con el uso, dándole una personalidad única y un look \"vivido\" que muchos coleccionistas buscan (estilo Crazy Horse o Gaucho).\n\nConstrucción Sólida: Broches de presión firmes, cadena metálica de seguridad y presilla de cuero resistente para el cinturón.\n\nCapacidad: Múltiples compartimentos para tarjetas y billetes, manteniendo todo seguro y organizado.\n\nIncluye: Caja original Dr. Martens.\n\nIdeal para: Combinar con botas de piel engrasada, jeans de mezclilla cruda (raw denim) o ropa estilo leñador/excursionista.\n\nEstado: Nueva en caja.",
+    "slug": "cartera-larga-dr-martens-dark-brown"
+  },
+  {
+    "id": 20,
+    "name": "Cinturón Dr. Martens Doble Hebilla Industrial",
+    "price": 650,
+    "style": "Industrial / Punk",
+    "size": "One Size",
+    "color": "Black Smooth",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/2ollos.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cinturón de Cuero Dr. Martens (Estilo Industrial y Distintivo)\nPresentamos un cinturón de cuero genuino Dr. Martens que encarna la estética rebelde y duradera característica de la marca.\n\nEste accesorio se distingue por su construcción robusta y estilo utilitario:\n\nMaterial: Confeccionado en cuero negro de alta calidad, garantizando durabilidad y un envejecimiento que mejora con el tiempo.\n\nCostura Icónica: El diseño está resaltado por el inconfundible pespunte grueso en color amarillo a lo largo de los bordes, un sello distintivo que evoca el famoso ribete \"welt\" de las botas Dr. Martens.\n\nDoble Hebilla Industrial: Cuenta con una llamativa doble hebilla de metal negro, que no solo ofrece un ajuste seguro, sino que también añade un fuerte toque de inspiración industrial y punk.\n\nDetalles Reforzados: Incorpora ojales metálicos negros dobles a lo largo del cuerpo del cinturón, reforzando su resistencia y acentuando su estilo heavy-duty.\n\nMarca: El logo de Dr. Martens AirWair está sutilmente grabado en el cuero, confirmando su autenticidad y herencia de diseño.\n\nEste cinturón es el complemento perfecto para quienes buscan elevar su estilo con un accesorio icónico, duradero y lleno de actitud.",
+    "slug": "cintur-n-dr-martens-doble-hebilla-industrial",
+    "modelUrl": "/models/cinturondosollos.glb"
+  },
+  {
+    "id": 14,
+    "name": "Cinturón Dr. Martens Dark Brown",
+    "price": 650,
+    "style": "Industrial / Workwear",
+    "size": "One Size",
+    "color": "Dark Brown Crazy Horse",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/cbrown.jpg"
+    ],
+    "modelUrl": "/models/Cinturoncafe.glb",
+    "offers": [],
+    "description": "Añade una dosis de actitud industrial a tu look con este cinturón Dr. Martens de doble púa. Fabricado para durar y destacar, combina la estética ruda de la ropa de trabajo con los detalles inconfundibles de la marca.\n\nCaracterísticas Destacadas:\n\nDiseño de Doble Púa: Cuenta con una hebilla metálica robusta de dos puntas y doble hilera de ojales, brindando un ajuste más seguro y una apariencia visualmente imponente.\n\nADN Dr. Martens: Incorpora la clásica costura amarilla a lo largo de todo el borde y el logotipo \"Dr. Martens AirWair\" grabado en la punta y en la presilla.\n\nPiel Premium: Acabado en piel café oscuro (Dark Brown/Crazy Horse) con textura mate que envejece maravillosamente, adquiriendo carácter con cada uso.\n\nEstilo Robusto: Su ancho superior al promedio lo hace perfecto para usar con jeans de mezclilla gruesa, pantalones cargo o ropa de trabajo.\n\nEstado: Nuevo con etiquetas.",
+    "slug": "cintur-n-dr-martens-dark-brown"
+  },
+  {
+    "id": 15,
+    "name": "Cinturón Dr. Martens Black Rainbow Stitch",
+    "price": 650,
+    "style": "Pride / Festival",
+    "size": "One Size",
+    "color": "Black / Rainbow",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/arcoiris.jpg"
+    ],
+    "offers": [],
+    "description": "Una pieza de colección audaz y expresiva. Este cinturón de Dr. Martens rompe con el diseño tradicional al sustituir la clásica costura amarilla por un llamativo patrón de costura arcoíris (Rainbow Stitch) que recorre los bordes de la piel. Es el accesorio perfecto para quienes buscan incorporar un toque de color, diversidad y máxima expresión a su estilo.\n\nCaracterísticas Únicas:\n\nDiseño Exclusivo: Costuras en tonos vibrantes como amarillo, rojo, verde y azul sobre la piel negra, creando un efecto visual espectacular.\n\nMaterial: Piel genuina negra de alta calidad.\n\nHardware: Hebilla clásica de una sola púa en acabado plateado cromado.\n\nDetalles de Marca: Logotipo \"Dr. Martens AirWair\" grabado en la presilla y presentado con la etiqueta original.\n\nIdeal para: Outfits de festival, eventos relacionados con la diversidad o para combinar con botas y accesorios que tengan detalles coloridos.\n\nEstado: Nuevo con etiquetas.",
+    "modelUrl": "/models/arcoiris.glb",
+    "slug": "cintur-n-dr-martens-black-rainbow-stitch"
+  },
+  {
+    "id": 16,
+    "name": "Cinturón Dr. Martens Black Classic",
+    "price": 650,
+    "style": "Classic / Punk",
+    "size": "One Size",
+    "color": "Black Smooth",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/vcnegro.jpg"
+    ],
+    "offers": [],
+    "description": "El cinturón esencial que captura la esencia de Dr. Martens. Este accesorio es el compañero perfecto para las icónicas botas 1460, replicando el diseño clásico con la robustez y durabilidad que caracterizan a la marca. Es el elemento básico que todo fanático de Dr. Martens debe tener.\n\nCaracterísticas:\n\nADN Clásico: Piel negra de alta calidad con el distintivo e inconfundible pespunte amarillo recorriendo los bordes del cinturón.\n\nMaterial: Confeccionado en cuero genuino resistente, diseñado para soportar el uso diario.\n\nHebilla: Hebilla de púa simple en acabado metálico plateado (cromado).\n\nDetalles: Logotipo \"Dr. Martens\" grabado en la presilla de cuero, confirmando su autenticidad.\n\nPresentación: Se entrega en su caja original, ideal para preservar o regalar.\n\nIdeal para: Usar con jeans, pantalones cargo o cualquier look que requiera el toque clásico y rebelde de Dr. Martens.",
+    "slug": "cintur-n-dr-martens-black-classic",
+    "modelUrl": "/models/cintoclasic.glb"
+  },
+  {
+    "id": 17,
+    "name": "Cinturón Dr. Martens Green Smooth",
+    "price": 650,
+    "style": "Military / Indie",
+    "size": "One Size",
+    "color": "Green Smooth",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/verde.jpg"
+    ],
+    "modelUrl": "/models/cinturonverde.glb",
+    "offers": [],
+    "description": "Rompe la monotonía con este exclusivo cinturón en color Green Smooth (Verde). Diseñado para coordinar perfectamente con las botas y accesorios de la colección verde de Dr. Martens, este cinturón ofrece un toque de color sutil pero distintivo.\n\nCaracterísticas:\n\nColor Exclusivo: Piel genuina en tono verde botella (Green Smooth) que combina elegancia y estilo militar.\n\nADN Dr. Martens: Resalta por su costura amarilla perimetral, el sello de autenticidad de la marca.\n\nConstrucción: Hebilla cuadrada de acabado cromado y presilla de cuero con el logo grabado.\n\nEstado: Nuevo con etiquetas.",
+    "slug": "cintur-n-dr-martens-green-smooth"
+  },
+  {
+    "id": 19,
+    "name": "Cinturón Dr. Martens Cherry Red",
+    "price": 650,
+    "style": "Heritage / Skinhead",
+    "size": "One Size",
+    "color": "Cherry Red",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/vino.jpg"
+    ],
+    "offers": [],
+    "description": "El complemento esencial para el purista de Dr. Martens. Este cinturón en el legendario color Cherry Red (Rojo Cereza / Vino) captura el espíritu original de la marca, ofreciendo el equilibrio perfecto entre estilo vintage y durabilidad moderna.\n\nCaracterísticas Destacadas:\n\nColor Heritage: Acabado en el clásico tono Cherry Red de la piel Smooth, diseñado para envejecer con carácter y combinar idénticamente con las botas 1460 de este color.\n\nADN Inconfundible: Cuenta con el icónico pespunte amarillo recorriendo ambos bordes, el sello de rebeldía y calidad de Dr. Martens.\n\nCalidad de Construcción: Hebilla de púa simple en acabado plateado brillante y presilla de cuero con el logotipo \"Dr. Martens AirWair\" grabado en relieve.\n\nEstado: Nuevo con etiquetas y caja, listo para estrenar o regalar.",
+    "modelUrl": "/models/Cinturonvino.glb",
+    "slug": "cintur-n-dr-martens-cherry-red"
+  },
+  {
+    "id": 21,
+    "name": "Cinturón Dr. Martens Estilo Clásico con Costura Roja",
+    "price": 650,
+    "style": "Classic / Punk",
+    "size": "One Size",
+    "color": "Black / Red Stitch",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/cr1.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cinturón de Cuero Dr. Martens (Estilo Clásico con Costura Roja)\nPresentamos un cinturón de cuero genuino Dr. Martens que ofrece el diseño inconfundible de la marca con un contraste de color dinámico y clásico.\n\nEste accesorio destaca por su construcción atemporal y un detalle de color sutil pero impactante:\n\nMaterial: Elaborado en cuero negro liso de alta calidad, conocido por su resistencia y tacto premium.\n\nCostura Distintiva: Incorpora el pespunte grueso en color rojo vibrante a lo largo de los bordes. Esta costura ofrece un contraste llamativo contra el cuero negro, evocando una estética audaz y rockera.\n\nHebilla y Acabado: Equipado con una hebilla de espiga (pin buckle) metálica en tono plateado brillante, de diseño rectangular clásico, que complementa la robustez del cinturón con un toque de pulcritud.\n\nDetalles: El pasador del cinturón está grabado con el logo de Dr. Martens AirWair para autenticidad. El diseño general es ancho, ofreciendo una presencia sólida y duradera.\n\nVersatilidad: Es el complemento ideal para looks casuales, grunge o punk, aportando la actitud de Dr. Martens sin ser excesivamente recargado.\n\nEste cinturón es una pieza fundamental, duradera y elegante para cualquier guardarropa con una inclinación hacia la moda alternativa.",
+    "slug": "cintur-n-dr-martens-estilo-cl-sico-con-costura-roja",
+    "modelUrl": "/models/cintocosturared.glb"
+  },
+  {
+    "id": 22,
+    "name": "Cinturón Dr. Martens Color Vibrante y Contraste Icónico",
+    "price": 650,
+    "style": "Statement / Streetwear",
+    "size": "One Size",
+    "color": "Blue / Yellow Stitch",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/ModeloCinturonAzul.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cinturón de Cuero Dr. Martens (Color Vibrante y Contraste Icónico)\nPresentamos un cinturón de cuero genuino Dr. Martens que inyecta color audaz en el diseño clásico y robusto de la marca.\n\nEste accesorio se distingue por su coloración vibrante y los detalles icónicos de Dr. Martens:\n\nMaterial y Color: Confeccionado en cuero de color azul eléctrico o cobalto, un tono que garantiza que el cinturón sea el centro de atención.\n\nCostura Icónica: Fiel a la herencia de la marca, presenta el pespunte grueso y contrastante en color amarillo a lo largo de los bordes, emulando la distintiva suela welt de sus botas.\n\nHebilla y Herrajes: Cuenta con una hebilla de espiga (pin buckle) metálica en tono plateado brillante, de diseño rectangular clásico, que ofrece un acabado pulido y un ajuste confiable.\n\nMarca: El logo de Dr. Martens AirWair está grabado discretamente en el cuero cerca del pasador, garantizando su autenticidad.\n\nDiseño: Su ancho considerable y la combinación de colores llamativos lo hacen un accesorio perfecto para un estilo statement, streetwear o para agregar un toque de color a un atuendo monocromático.\n\nEste cinturón es una pieza atrevida y de alta calidad para quienes buscan un accesorio que combine durabilidad con una estética inolvidable.",
+    "slug": "cintur-n-dr-martens-color-vibrante-y-contraste-ic-nico",
+    "modelUrl": "/models/cintoazu.glb"
+  },
+  {
+    "id": 23,
+    "name": "Cartera / Billetera de Cuero con Cadena Dr. Martens",
+    "price": 650,
+    "style": "Punk / Rock",
+    "size": "One Size",
+    "color": "Black / Red Stitch",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/CaCosRoja.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cartera / Billetera de Cuero con Cadena Dr. Martens\nPresentamos una cartera tipo biker o billetera de cuero genuino Dr. Martens, que evoca la estética punk y rock característica de la marca con un enfoque en la durabilidad y el estilo.\n\nEste accesorio es la pareja perfecta para los cinturones robustos y se distingue por:\n\nMaterial: Confeccionada en cuero negro liso de alta calidad, que promete resistencia al uso diario.\n\nCostura Distintiva: Incorpora el pespunte grueso en color rojo vibrante a lo largo de sus bordes. Esta costura no solo asegura la estructura, sino que también añade un contraste audaz y reconocible.\n\nEmblema Grabado: La cubierta exterior presenta el logo icónico de Dr. Martens en relieve, grabado con detalle, certificando la autenticidad y el espíritu de la marca.\n\nCierre y Seguridad: Utiliza un sistema de cierre con broche de presión (snap) y está diseñada para ser utilizada con cadena. El ojal de cuero reforzado y el mosquetón de metal visible permiten asegurarla al cinturón o pantalón, ofreciendo seguridad y un toque de estilo workwear.\n\nEstilo: Su diseño rectangular y robusto, combinado con la cadena (parcialmente visible), la posiciona como un accesorio statement ideal para estilos alternativos, grunge y amantes de la cultura biker.\n\nEsta billetera no es solo un accesorio funcional, sino una declaración de estilo que refleja la actitud duradera y rebelde de Dr. Martens.",
+    "slug": "cartera-billetera-de-cuero-con-cadena-dr-martens",
+    "modelUrl": "/models/carterared.glb"
+  },
+  {
+    "id": 24,
+    "name": "Cinturón Dr. Martens Black & White Stitch",
+    "price": 650,
+    "style": "Monochrome / Modern",
+    "size": "One Size",
+    "color": "Black / White Stitch",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/CinCostBlanca.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cinturón de Cuero Dr. Martens (Costura Blanca de Alto Contraste)\nPresentamos una reinterpretación moderna del clásico cinturón Dr. Martens, donde la icónica costura amarilla se sustituye por un elegante y nítido pespunte blanco.\n\nEste accesorio ofrece una estética monocromática impactante:\n\nMaterial: Fabricado en el renombrado cuero Smooth negro de Dr. Martens, rígido al principio pero que se amolda perfectamente con el uso.\n\nContraste Audaz: La costura blanca perimetral resalta dramáticamente sobre el cuero negro, creando un look gráfico y pulido que evoca el estilo Mod y Ska de dos tonos.\n\nDiseño Robusto: Cuenta con una hebilla de metal en acabado plateado cepillado y una presilla de cuero resistente con el logo AirWair grabado, garantizando autenticidad.\n\nVersatilidad: Su diseño en blanco y negro lo convierte en la pieza ideal para estilos minimalistas, góticos o para quienes buscan un accesorio que combine con todo pero que no pase desapercibido.\n\nEstado: Nuevo con etiquetas. Una pieza esencial para renovar los clásicos.",
+    "slug": "cintur-n-dr-martens-black-white-stitch",
+    "modelUrl": "/models/cintocosblan.glb"
+  },
+  {
+    "id": 25,
+    "name": "Cinturón Dr. Martens Mono Black con Costuras Negras",
+    "price": 650,
+    "style": "Gothic / Minimalist / All Black",
+    "size": "One Size",
+    "color": "Black / Black Stitch",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/ModeloCinturonNegroCn.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cinturón Dr. Martens Mono Black Total (Costuras Negras)\nPresentamos la expresión máxima del minimalismo rebelde. Este cinturón Dr. Martens lleva el concepto \"Mono\" a su forma más pura: un diseño totalmente negro donde incluso la icónica costura amarilla ha sido reemplazada por pespuntes negros, creando una silueta limpia, uniforme y absolutamente discreta.\n\nEste accesorio representa la elegancia de lo oscuro:\n\nEstilo Total Black: A diferencia de todos los modelos clásicos, este cinturón prescinde por completo del contraste de color. Las costuras negras sobre cuero negro crean un acabado monocromático perfecto para quienes buscan un look 100% oscuro.\n\nMaterial Premium: Confeccionado en el legendario cuero Smooth negro de Dr. Martens, conocido por su durabilidad extrema y su capacidad de mejorar con el uso.\n\nConstrucción Robusta: Doble hilera de ojales metálicos reforzados que garantizan resistencia y un ajuste preciso. Hebilla rectangular de metal cromado plateado que ofrece un sutil contraste sin romper la estética oscura.\n\nDetalles de Autenticidad: Logo \"Dr. Martens AirWair\" grabado en relieve en la presilla de cuero, confirmando su origen genuino.\n\nPresentación: Incluye su etiqueta original kraft característica de la marca, lista para regalo o colección.\n\nIdeal para: Outfits completamente negros (All Black), estilo Gótico, Darkwear, Minimalista o para quienes prefieren accesorios que pasen desapercibidos pero con la calidad inconfundible de Dr. Martens.\n\nEstado: Nuevo con etiquetas.",
+    "slug": "cinturon-dr-martens-mono-black-costuras-negras",
+    "modelUrl": "/models/cintonegro.glb"
+  },
+  {
+    "id": 26,
+    "name": "Cinturón Dr. Martens Red Smooth con Costuras Amarillas",
+    "price": 650,
+    "style": "Heritage / Bold / Statement",
+    "size": "One Size",
+    "color": "Red Smooth / Yellow Stitch",
+    "brand": "Dr. Martens",
+    "imageUrls": [
+      "/images/ModeloCinturonRojo.jpg"
+    ],
+    "offers": [],
+    "description": "📸 Descripción Profesional Destacada: Cinturón Dr. Martens Red Smooth (Color Vibrante con Costura Amarilla Icónica)\nPresentamos una pieza audaz y llena de personalidad. Este cinturón Dr. Martens en color rojo vibrante combina el ADN clásico de la marca con un tono llamativo que no pasa desapercibido. Es el accesorio perfecto para quienes buscan hacer una declaración de estilo con cada outfit.\n\nEste cinturón representa la rebeldía cromática:\n\nColor Impactante: Confeccionado en cuero rojo intenso (Red Smooth), un tono vibrante y llamativo que añade un pop de color instantáneo a cualquier look.\n\nCostura Icónica: Presenta el legendario pespunte amarillo perimetral de Dr. Martens, creando un contraste visual espectacular que define el ADN de la marca. Esta costura amarilla resalta dramáticamente sobre el cuero rojo.\n\nMaterial Premium: Fabricado en el renombrado cuero Smooth de Dr. Martens, conocido por su durabilidad extrema, resistencia al desgaste y capacidad de desarrollar una hermosa pátina con el uso.\n\nConstrucción Robusta: Doble hilera de ojales metálicos reforzados que garantizan un ajuste seguro y duradero. Hebilla rectangular de metal cromado plateado que ofrece un acabado pulido y profesional.\n\nDetalles de Autenticidad: Logo \"Dr. Martens AirWair\" grabado en relieve en la presilla de cuero, confirmando su origen genuino y calidad superior.\n\nPresentación: Incluye su etiqueta original kraft característica de la marca, perfecta para regalo o colección.\n\nIdeal para: Outfits que necesitan un toque de color, estilo Rockabilly, looks vintage, punk colorido, o para quienes buscan romper con la monotonía del negro total. Combina perfectamente con jeans claros, pantalones negros o cualquier atuendo que necesite un punto focal vibrante.\n\nEstado: Nuevo con etiquetas. Una pieza statement que define tu personalidad.",
+    "slug": "cinturon-dr-martens-red-smooth-costuras-amarillas",
+    "modelUrl": "/models/cintorojo.glb"
+  }
+]

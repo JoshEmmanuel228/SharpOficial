@@ -1,0 +1,17 @@
+// Automatically determine the API URL based on the current hostname
+// This allows the app to work on localhost and local network IPs (e.g., 192.168.x.x) without manual changes.
+
+const isProduction = process.env.NODE_ENV === 'production';
+
+// If in production, use the environment variable. 
+// If in dev, use the current hostname with port 5000.
+// Helper to sanitize URL
+const sanitizeUrl = (url) => url.endsWith('/') ? url.slice(0, -1) : url;
+
+export const API_URL = process.env.REACT_APP_API_URL
+    ? `${sanitizeUrl(process.env.REACT_APP_API_URL)}/api`
+    : (isProduction ? 'http://localhost:5000/api' : `http://${window.location.hostname}:5000/api`);
+
+export const BASE_URL = process.env.REACT_APP_API_URL
+    ? sanitizeUrl(process.env.REACT_APP_API_URL)
+    : (isProduction ? 'http://localhost:5000' : `http://${window.location.hostname}:5000`);

@@ -1,0 +1,76 @@
+[
+  {
+    "user": {
+      "fullName": "Joshua Emmanuel Meza Rodriguez",
+      "email": "mezarodriguezjm@gmail.com",
+      "address": "Batallon de San Blas",
+      "city": "Cuautitlán Izcalli",
+      "phone": "5616417138",
+      "zipCode": "54744",
+      "deliveryDate": "2026-01-08",
+      "deliveryTime": "12:33",
+      "deliveryStation": "Lechería"
+    },
+    "cartItems": [
+      {
+        "id": 9,
+        "name": "Cartera Larga Dr. Martens Negra",
+        "price": 650,
+        "style": "Skinhead / Punk",
+        "size": "One Size",
+        "color": "Black Smooth",
+        "brand": "Dr. Martens",
+        "imageUrls": [
+          "/images/Cnegra.jpg"
+        ],
+        "modelUrl": "/models/CarteraNegra1.glb",
+        "secondaryModelUrl": "/models/CarteraNegra2.glb",
+        "offers": [],
+        "description": "La definición de estilo atemporal y rebeldía. Esta cartera larga Dr. Martens en color negro mate está confeccionada en la robusta piel Smooth, diseñada para resistir el uso diario y lucir mejor con los años.\n\nCaracterísticas:\n\nColor: Negro Mate (Black Smooth), el acabado más versátil y clásico de la marca.\n\nMaterial: Piel genuina de alta resistencia, fácil de limpiar y mantener.\n\nADN Dr. Martens: Pespunte amarillo de alto contraste y logotipo grabado en bajo relieve.\n\nFuncionalidad: Diseño de cartera larga con cadena de seguridad desmontable y correa para cinturón, perfecta para mantener tus pertenencias seguras en cualquier lugar.\n\nPresentación: Se entrega con su caja original kraft con el logo de la marca.\n\nEstado: Nueva en caja.",
+        "slug": "cartera-larga-dr-martens-negra",
+        "quantity": 1
+      }
+    ],
+    "total": 650,
+    "paymentMethod": "cash",
+    "status": "Pending",
+    "createdAt": "2026-01-06T17:17:55.080Z",
+    "_id": "1767719875082"
+  },
+  {
+    "user": {
+      "fullName": "Joshua Emmanuel Meza Rodriguez",
+      "email": "mezarodriguezjm@gmail.com",
+      "address": "Batallon de San Blas",
+      "city": "Cuautitlán Izcalli",
+      "phone": "5616417138",
+      "zipCode": "54744",
+      "deliveryDate": "2026-01-17",
+      "deliveryTime": "11:00",
+      "deliveryStation": "Buenavista"
+    },
+    "cartItems": [
+      {
+        "id": 12,
+        "name": "Set Dr. Martens 'All White'",
+        "price": 650,
+        "style": "Mod / Minimalist",
+        "size": "One Size",
+        "color": "White Smooth",
+        "brand": "Dr. Martens",
+        "imageUrls": [
+          "/images/carterablanca.jpg"
+        ],
+        "offers": [],
+        "description": "Rompe con la oscuridad habitual y atrévete con el blanco total. Este set exclusivo de Dr. Martens en color White Smooth es una rareza difícil de encontrar, diseñada para quienes buscan un impacto visual inmediato y una estética limpia.\n\nCaracterísticas del Set:\n\nEstética \"Mono White\": A diferencia de los modelos tradicionales, aquí todo es blanco. La piel y las costuras son blancas, creando un look minimalista, pulcro y moderno.\n\nPiel Premium: Confeccionado en cuero vacuno genuino con acabado liso (Smooth) de alta resistencia.\n\nHardware Cromado: Tanto la hebilla del cinturón como la cadena de la cartera y los broches tienen un acabado plateado brillante que contrasta lujosamente con el blanco.\n\nDetalles Artesanales: El cinturón cuenta con un detalle de costura entrelazada en los bordes, un toque de distinción extra.\n\nEstado: Nuevo con etiquetas (como se ve en la foto), listo para estrenar.\n\nIdeal para: Estilos Mod, looks de verano, festivales, contraste con ropa totalmente negra, o para coleccionistas que mantienen sus piezas impecables.",
+        "slug": "set-dr-martens-all-white-",
+        "quantity": 1
+      }
+    ],
+    "total": 650,
+    "paymentMethod": "cash",
+    "status": "Pending",
+    "createdAt": "2026-01-06T17:23:35.236Z",
+    "_id": "1767720215238"
+  }
+]

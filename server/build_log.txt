@@ -1,0 +1,6 @@
+
+> server@1.0.0 build
+> tsc
+
+src/controllers/appointmentController.ts(17,50): error TS2345: Argument of type '{ name: any; phone: any; address: any; date: any; time: any; product: any; price: any; }' is not assignable to parameter of type 'IAppointment'.
+  Type '{ name: any; phone: any; address: any; date: any; time: any; product: any; price: any; }' is missing the following properties from type 'IAppointment': status, createdAt

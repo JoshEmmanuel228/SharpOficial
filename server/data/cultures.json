@@ -1,0 +1,120 @@
+[
+    {
+        "_id": "culture_reggae",
+        "slug": "reggae",
+        "name": "Reggae",
+        "description": "Nacido en Jamaica a finales de los 60, el reggae es mucho más que música; es una fuerza espiritual y una voz para los oprimidos. Evolucionando del ska y el rocksteady, se caracteriza por su ritmo pausado, el acento en el off-beat y líneas de bajo profundas.",
+        "characteristics": {
+            "origins": [
+                "Jamaica",
+                "Late 1960s"
+            ],
+            "connection": "Profundamente ligado a la cultura Rastafari y la identidad africana.",
+            "themes": [
+                "Justicia Social",
+                "Amor",
+                "Espiritualidad",
+                "Resistencia"
+            ],
+            "musicalStyle": "Ritmo 'skank' a contratiempo, bajos pesados, batería one-drop.",
+            "globalInfluence": "Bob Marley llevó el mensaje del reggae al mundo, influyendo en innumerables géneros desde el punk hasta el hip hop."
+        },
+        "impact": {
+            "unesco": "Reconocido como Patrimonio Cultural Inmaterial de la Humanidad.",
+            "culturalIdentity": "Símbolo de la lucha contra la opresión y el orgullo panafricanista.",
+            "evolution": "Ha dado origen al Dancehall, Dub y Reggaeton."
+        },
+        "headerImage": "/images/reggae-header.jpg",
+        "gallery": [],
+        "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+        "_id": "culture_punk",
+        "slug": "punk",
+        "name": "Punk",
+        "description": "Una explosión de energía cruda y rebeldía. El punk surgió a mediados de los 70 en Nueva York y Londres como una respuesta minimalista y agresiva al rock mainstream. Con su ética 'hazlo tú mismo' (DIY), desafió las normas musicales y sociales.",
+        "characteristics": {
+            "origins": [
+                "UK",
+                "USA",
+                "Mid 1970s"
+            ],
+            "connection": "Rechazo al establishment, anarquismo, inconformismo.",
+            "themes": [
+                "Rebeldía",
+                "Anti-sistema",
+                "Individualismo",
+                "Crítica Social"
+            ],
+            "musicalStyle": "Canciones cortas, rápidas, instrumentación básica, voces agresivas.",
+            "globalInfluence": "Redefinió la moda, el arte gráfico y la autogestión musical."
+        },
+        "impact": {
+            "unesco": "N/A",
+            "culturalIdentity": "Voz de la juventud alienada y descontenta.",
+            "evolution": "Hardcore, Post-Punk, Grunge, Pop Punk."
+        },
+        "headerImage": "/images/punk-header.jpg",
+        "gallery": [],
+        "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+        "_id": "culture_skinhead",
+        "slug": "skinhead",
+        "name": "Skinhead",
+        "description": "Surgida en el Reino Unido en los 60, la cultura Skinhead original era una fusión multicultural entre los jóvenes de clase trabajadora británica (Mods) y la juventud inmigrante jamaicana (Rude Boys). Unidos por el orgullo obrero, la moda nítida y la pasión por el Ska, Rocksteady y Reggae.",
+        "characteristics": {
+            "origins": [
+                "United Kingdom",
+                "1969"
+            ],
+            "connection": "Clase trabajadora, fútbol, camaradería.",
+            "themes": [
+                "Orgullo Obrero",
+                "Lealtad",
+                "Estilo",
+                "Música Jamaicana"
+            ],
+            "musicalStyle": "Ska, Rocksteady, Early Reggae, Soul, y más tarde Oi!",
+            "globalInfluence": "Una de las subculturas más incomprendidas, pero fundamental en la historia del estilo callejero."
+        },
+        "impact": {
+            "unesco": "N/A",
+            "culturalIdentity": "Estética 'Sharp', botas, tirantes y cabezas rapadas como símbolo de limpieza y dureza.",
+            "evolution": "Tradicionales, Trojan Skins, Oi!, Hardcore Skins."
+        },
+        "headerImage": "/images/skinhead-header.jpg",
+        "gallery": [],
+        "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+        "_id": "culture_rock",
+        "slug": "rock",
+        "name": "Rock",
+        "description": "Más que un género, una actitud. Desde sus raíces en el blues hasta llenar estadios en todo el mundo, el Rock ha sido el vehículo principal de la expresión juvenil durante décadas. Simboliza la libertad, la potencia y la evolución constante.",
+        "characteristics": {
+            "origins": [
+                "USA",
+                "UK",
+                "1950s"
+            ],
+            "connection": "Rebelión juvenil, libertad sexual, contracultura.",
+            "themes": [
+                "Libertad",
+                "Exceso",
+                "Pasión",
+                "Vida"
+            ],
+            "musicalStyle": "Guitarras eléctricas amplificadas, batería fuerte, actitud.",
+            "globalInfluence": "La fuerza cultural dominante de la segunda mitad del siglo XX."
+        },
+        "impact": {
+            "unesco": "N/A",
+            "culturalIdentity": "El arquetipo de la estrella de rock y la cultura del fan.",
+            "evolution": "Metal, Alternative, Indie, Classic Rock."
+        },
+        "headerImage": "/images/rock-header.jpg",
+        "gallery": [],
+        "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+]

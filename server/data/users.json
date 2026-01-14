@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mexaion IA",
+    "email": "mexaion018@gmail.com",
+    "googleId": "112332334571545230239",
+    "password": "",
+    "isAdmin": false,
+    "createdAt": "2026-01-06T04:58:56.137Z",
+    "_id": "1767675536138"
+  },
+  {
+    "name": "Meza Rodríguez Joshua Emmanuel",
+    "email": "mezarodriguezjm@gmail.com",
+    "googleId": "102875665409304471643",
+    "password": "",
+    "isAdmin": false,
+    "createdAt": "2026-01-06T05:15:45.838Z",
+    "_id": "1767676545838"
+  }
+]
