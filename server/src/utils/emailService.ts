@@ -23,7 +23,7 @@ const transporter = nodemailer.createTransport({
         user: process.env.EMAIL_USER, // Ensure these are set in .env
         pass: process.env.EMAIL_PASS
     }
-});
+} as any);
 
 export const sendAppointmentEmail = async (appointmentData: any) => {
     const { name, email, phone, address, date, time, product, price } = appointmentData;
