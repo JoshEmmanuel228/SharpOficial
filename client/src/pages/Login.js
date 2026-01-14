@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate, Link, useLocation } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
 import authService from '../services/authService';
+import { API_URL } from '../config';
 import { motion } from 'framer-motion';
 
 const Login = () => {
@@ -51,7 +52,7 @@ const Login = () => {
     };
 
     const handleGoogleLogin = () => {
-        window.location.href = 'http://localhost:5000/api/auth/google';
+        window.location.href = `${API_URL}/auth/google`;
     };
 
     return (
