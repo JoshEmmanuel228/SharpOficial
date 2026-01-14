@@ -1,5 +1,9 @@
 import dotenv from 'dotenv';
-dotenv.config();
+// Load env vars immediately, before any other imports
+const result = dotenv.config();
+if (result.error) {
+  console.log('⚠️  .env file not found or error loading it. Assuming env vars are set in system/container.');
+}
 
 import express from 'express';
 import cors from 'cors';
@@ -13,6 +17,15 @@ import authRoutes from './routes/authRoutes';
 import appointmentRoutes from './routes/appointmentRoutes';
 import orderRoutes from './routes/orderRoutes';
 import testEmailRoutes from './routes/testEmailRoute';
+import debugRoutes from './routes/debugRoute'; // Re-added import
+
+// Verify critical env vars
+console.log('----------------------------------------');
+console.log('🚀 Server Starting...');
+console.log(`Node Environment: ${process.env.NODE_ENV}`);
+console.log(`Email User Configured: ${process.env.EMAIL_USER ? 'YES (' + process.env.EMAIL_USER.substring(0, 3) + '...)' : '❌ NO'}`);
+console.log(`Email Pass Configured: ${process.env.EMAIL_PASS ? 'YES (Length: ' + process.env.EMAIL_PASS.length + ')' : '❌ NO'}`);
+console.log('----------------------------------------');
 
 // connectDB(); // Removed Mongo Connection
 
@@ -46,6 +59,7 @@ app.use('/api/auth', authRoutes); // Alias for Google Auth callback compatibilit
 app.use('/api/appointments', appointmentRoutes);
 app.use('/api/orders', orderRoutes);
 app.use('/api/test-email-config', testEmailRoutes);
+app.use('/api/debug', debugRoutes); // Expose debug route
 
 // Serve static files in production
 // Serve static files (React App)
