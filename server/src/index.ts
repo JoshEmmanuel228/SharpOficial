@@ -12,6 +12,7 @@ import productRoutes from './routes/productRoutes';
 import authRoutes from './routes/authRoutes';
 import appointmentRoutes from './routes/appointmentRoutes';
 import orderRoutes from './routes/orderRoutes';
+import testEmailRoutes from './routes/testEmailRoute';
 
 // connectDB(); // Removed Mongo Connection
 
@@ -44,6 +45,7 @@ app.use('/api/users', authRoutes);
 app.use('/api/auth', authRoutes); // Alias for Google Auth callback compatibility
 app.use('/api/appointments', appointmentRoutes);
 app.use('/api/orders', orderRoutes);
+app.use('/api/test-email-config', testEmailRoutes);
 
 // Serve static files in production
 // Serve static files (React App)
