@@ -10,8 +10,8 @@ const sanitizeUrl = (url) => url.endsWith('/') ? url.slice(0, -1) : url;
 
 export const API_URL = process.env.REACT_APP_API_URL
     ? `${sanitizeUrl(process.env.REACT_APP_API_URL)}/api`
-    : (isProduction ? 'http://localhost:5000/api' : `http://${window.location.hostname}:5000/api`);
+    : (isProduction ? '/api' : `http://${window.location.hostname}:5000/api`);
 
 export const BASE_URL = process.env.REACT_APP_API_URL
     ? sanitizeUrl(process.env.REACT_APP_API_URL)
-    : (isProduction ? 'http://localhost:5000' : `http://${window.location.hostname}:5000`);
+    : (isProduction ? '' : `http://${window.location.hostname}:5000`);
