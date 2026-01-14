@@ -32,6 +32,21 @@ const AppointmentModal = ({ isOpen, onClose, product }) => {
         setLoading(true);
         setError(null);
 
+        // Client-side validation
+        if (!formData.time) {
+            setError('Por favor selecciona un horario para tu cita.');
+            setLoading(false);
+            return;
+        }
+
+        const appointmentData = {
+            ...formData,
+            product: product?.name,
+            price: product?.price
+        };
+
+        console.log('[Appointment] Sending data:', appointmentData);
+
         try {
             const config = {
                 headers: {
@@ -39,15 +54,13 @@ const AppointmentModal = ({ isOpen, onClose, product }) => {
                 },
             };
 
-            await axios.post(
+            const response = await axios.post(
                 `${API_URL}/appointments`,
-                {
-                    ...formData,
-                    product: product?.name,
-                    price: product?.price
-                },
+                appointmentData,
                 config
             );
+
+            console.log('[Appointment] Success:', response.data);
 
             setSuccess(true);
             setTimeout(() => {
@@ -62,7 +75,12 @@ const AppointmentModal = ({ isOpen, onClose, product }) => {
                 onClose();
             }, 3000);
         } catch (err) {
-            setError(err.response?.data?.message || 'Error al agendar la cita');
+            console.error('[Appointment] Error:', err);
+            const serverMsg = err.response?.data?.message;
+            if (serverMsg) {
+                console.error('[Appointment] Server Message:', serverMsg);
+            }
+            setError(serverMsg || 'Error al agendar la cita. Verifica tu conexión.');
         } finally {
             setLoading(false);
         }
