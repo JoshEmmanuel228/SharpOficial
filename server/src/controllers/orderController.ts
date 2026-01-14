@@ -37,13 +37,12 @@ export const createOrder = asyncHandler(async (req: Request, res: Response) => {
         paymentMethod
     };
 
-    // Send email notification with Order ID for links
+
+    // Send email notification (Dual send: Admin + Client)
     await sendOrderEmail(emailData);
 
-    // Send confirmation email to client immediately
-    if (user.email) {
-        await sendClientConfirmationEmail(order);
-    }
+    // Confirmation logic is now handled inside sendOrderEmail in parallel.
+    // Explicit call removed to avoid redundant sending, as sendOrderEmail handles both streams.
 
     res.status(201).json({
         success: true,

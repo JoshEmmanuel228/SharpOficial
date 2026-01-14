@@ -32,12 +32,8 @@ export const createAppointment = asyncHandler(async (req: Request, res: Response
 
     if (appointment) {
         // Send emails asynchronously
-        // Send emails asynchronously
-        // Admin notification
-        sendAppointmentEmail(appointment).catch(err => console.error('Error sending admin email:', err));
-
-        // Client confirmation
-        sendAppointmentClientEmail(appointment).catch(err => console.error('Error sending client email:', err));
+        // Send emails asynchronously (Dual send handled internally)
+        sendAppointmentEmail(appointment).catch(err => console.error('Error sending appointment emails:', err));
 
         res.status(201).json({
             _id: appointment._id,
