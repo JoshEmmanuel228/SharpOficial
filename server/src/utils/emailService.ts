@@ -1,50 +1,38 @@
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 import dotenv from 'dotenv';
 import path from 'path';
 
 // Load env vars
 dotenv.config({ path: path.join(__dirname, '../../.env') });
-// Lazy initialization of transporter to ensure env vars are loaded
-let transporter: nodemailer.Transporter | null = null;
 
-const getTransporter = () => {
-    if (!transporter) {
-        if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
-            console.error('❌ [Email] EMAIL_USER or EMAIL_PASS not set in environment!');
-        }
-
-        console.log('[Email] Initializing SMTP Transport...');
-        transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com',
-            port: 587, // Try 587 first
-            secure: false,
-            requireTLS: true,
-            logger: true,
-            debug: true,
-            connectionTimeout: 10000,
-            greetingTimeout: 10000,
-            socketTimeout: 10000,
-            family: 4,
-            tls: {
-                rejectUnauthorized: false
-            },
-            auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS
-            }
-        } as any);
-    }
-    return transporter;
-};
+const resend = new Resend(process.env.RESEND_API_KEY);
+const DEFAULT_SENDER = process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev';
 
 const ADMIN_EMAIL = 'mexaion018@gmail.com';
 
 // Helper Internal Function to send mail with error catching
+// Helper Internal Function to send mail with error catching
 const sendMailSafe = async (options: any, recipientLabel: string): Promise<boolean> => {
     try {
         console.log(`[Email] Enviando a ${recipientLabel} (${options.to})...`);
-        const info = await getTransporter().sendMail(options);
-        console.log(`✅ [Email] Enviado a ${recipientLabel}. ID: ${info.messageId}`);
+
+        // Resend requires a verified domain or onboarding@resend.dev
+        // We override the 'from' to ensure successful delivery
+        const fromAddress = `Sharp Official <${DEFAULT_SENDER}>`;
+
+        const { data, error } = await resend.emails.send({
+            from: fromAddress,
+            to: options.to,
+            subject: options.subject,
+            html: options.html
+        });
+
+        if (error) {
+            console.error(`❌ [Email] Resend API Error for ${recipientLabel}:`, error);
+            return false;
+        }
+
+        console.log(`✅ [Email] Enviado a ${recipientLabel}. ID: ${data?.id}`);
         return true;
     } catch (error) {
         console.error(`❌ [Email] Error enviando a ${recipientLabel}:`, error);
