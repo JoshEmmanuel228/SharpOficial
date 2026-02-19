@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { X, Minus, Plus, ShoppingBag, Trash2 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { BASE_URL } from '../config';
 
 const CartDrawer = () => {
     const navigate = useNavigate();
@@ -62,7 +63,7 @@ const CartDrawer = () => {
                             <div key={item.id} className="flex gap-4 bg-gray-800/30 p-4 rounded-xl border border-gray-800 hover:border-gray-700 transition-colors group">
                                 <div className="w-24 h-24 bg-gray-800 rounded-lg overflow-hidden flex-shrink-0">
                                     <img
-                                        src={item.imageUrls[0]}
+                                        src={item.imageUrls[0]?.startsWith('http') ? item.imageUrls[0] : `${BASE_URL}${item.imageUrls[0]}`}
                                         alt={item.name}
                                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                     />

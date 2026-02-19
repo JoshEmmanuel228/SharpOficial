@@ -3,6 +3,7 @@ import { X, Search, ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { getAllProducts } from '../services/productService';
 import { fetchAllCultures } from '../services/cultureService';
+import { BASE_URL } from '../config';
 
 const SearchOverlay = ({ isOpen, onClose }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -126,7 +127,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
                                         className="bg-gray-800/50 hover:bg-gray-800 p-4 rounded-xl flex items-center gap-4 cursor-pointer transition-all border border-transparent hover:border-gray-700 group"
                                     >
                                         <div className="w-16 h-16 bg-gray-700 rounded-lg overflow-hidden flex-shrink-0">
-                                            <img src={product.imageUrls[0]} alt={product.name} className="w-full h-full object-cover" />
+                                            <img src={product.imageUrls[0]?.startsWith('http') ? product.imageUrls[0] : `${BASE_URL}${product.imageUrls[0]}`} alt={product.name} className="w-full h-full object-cover" />
                                         </div>
                                         <div className="flex-1">
                                             <h4 className="text-white font-bold text-lg group-hover:text-secondary transition-colors">{product.name}</h4>

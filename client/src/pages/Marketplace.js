@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getAllProducts } from '../services/productService';
+import { BASE_URL } from '../config';
 
 const Marketplace = () => {
     const [products, setProducts] = useState([]);
@@ -33,7 +34,7 @@ const Marketplace = () => {
                     <div key={product.id} className="bg-gray-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-dashed border-secondary">
                         <div className="h-64 overflow-hidden relative">
                             <img
-                                src={product.imageUrls[0]}
+                                src={product.imageUrls[0]?.startsWith('http') ? product.imageUrls[0] : `${BASE_URL}${product.imageUrls[0]}`}
                                 alt={product.name}
                                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                             />

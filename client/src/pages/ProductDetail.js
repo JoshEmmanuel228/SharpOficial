@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getProductById } from '../services/productService';
 import { useCart } from '../context/CartContext';
+import { BASE_URL } from '../config';
 
 import ProductModel from '../components/ProductModel';
 import AppointmentModal from '../components/AppointmentModal';
@@ -15,6 +16,7 @@ const ProductDetail = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(0);
 
     const [selectedSize, setSelectedSize] = useState('');
 
@@ -85,7 +87,7 @@ const ProductDetail = () => {
                                     onChange={(e) => setSelectedSize(e.target.value)}
                                     className="bg-gray-800 text-white font-semibold rounded px-2 py-1 border border-gray-600 focus:outline-none focus:border-secondary"
                                 >
-                                    {[30, 32, 34, 36, 38, 40, 42].map(size => (
+                                    {[28, 30, 32, 34, 36, 38, 40, 42, 44].map(size => (
                                         <option key={size} value={size}>{size}</option>
                                     ))}
                                 </select>
@@ -129,7 +131,7 @@ const ProductDetail = () => {
                         </button>
                     </div>
                 </div>
-                <div className="md:w-1/2">
+                <div className="md:w-1/2 flex flex-col gap-3">
                     <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden border-2 border-dashed border-secondary relative">
                         {show3D && product.modelUrl ? (
                             <div className="w-full h-full flex flex-col gap-4">
@@ -161,15 +163,33 @@ const ProductDetail = () => {
                                 )}
                             </div>
                         ) : (
-                            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden border-2 border-dashed border-secondary relative">
-                                <img
-                                    src={product.imageUrls[0]}
-                                    alt={product.name}
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
+                            <img
+                                src={product.imageUrls[selectedImage]?.startsWith('http') ? product.imageUrls[selectedImage] : `${BASE_URL}${product.imageUrls[selectedImage]}`}
+                                alt={product.name}
+                                className="w-full h-full object-cover"
+                            />
                         )}
                     </div>
+                    {!show3D && product.imageUrls.length > 1 && (
+                        <div className="flex gap-2 justify-center">
+                            {product.imageUrls.map((url, index) => (
+                                <button
+                                    key={index}
+                                    onClick={() => setSelectedImage(index)}
+                                    className={`w-20 h-20 rounded-lg overflow-hidden border-2 transition-all duration-300 ${selectedImage === index
+                                        ? 'border-secondary shadow-lg shadow-secondary/30 scale-105'
+                                        : 'border-gray-600 hover:border-gray-400 opacity-60 hover:opacity-100'
+                                        }`}
+                                >
+                                    <img
+                                        src={url.startsWith('http') ? url : `${BASE_URL}${url}`}
+                                        alt={`${product.name} - Vista ${index + 1}`}
+                                        className="w-full h-full object-cover"
+                                    />
+                                </button>
+                            ))}
+                        </div>
+                    )}
                 </div>
             </div>
 

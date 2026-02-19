@@ -5,7 +5,7 @@ const PRODUCTS_URL = `${API_URL}/products`;
 export const getAllProducts = async () => {
     try {
         console.log('[DEBUG] getAllProducts fetching from:', PRODUCTS_URL);
-        const response = await fetch(PRODUCTS_URL);
+        const response = await fetch(`${PRODUCTS_URL}?_t=${Date.now()}`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -19,7 +19,7 @@ export const getAllProducts = async () => {
 export const getProductById = async (id) => {
     try {
         console.log(`[DEBUG] Fetching product from: ${PRODUCTS_URL}/${id}`);
-        const response = await fetch(`${PRODUCTS_URL}/${id}`);
+        const response = await fetch(`${PRODUCTS_URL}/${id}?_t=${Date.now()}`);
         if (!response.ok) {
             throw new Error(`Network response was not ok: ${response.statusText}`);
         }

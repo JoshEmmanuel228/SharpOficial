@@ -282,7 +282,7 @@ const Checkout = () => {
                         <div className="space-y-4 mb-4 max-h-96 overflow-y-auto custom-scrollbar">
                             {cartItems.map((item) => (
                                 <div key={item.id} className="flex gap-4 border-b border-gray-800 pb-4">
-                                    <img src={item.imageUrls[0]} alt={item.name} className="w-16 h-16 object-cover rounded" />
+                                    <img src={item.imageUrls[0]?.startsWith('http') ? item.imageUrls[0] : `${API_URL.replace('/api', '')}${item.imageUrls[0]}`} alt={item.name} className="w-16 h-16 object-cover rounded" />
                                     <div>
                                         <p className="font-bold text-white text-sm">{item.name}</p>
                                         <p className="text-gray-400 text-xs">Cant: {item.quantity}</p>
